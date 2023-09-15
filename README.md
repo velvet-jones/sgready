@@ -1,3 +1,5 @@
+![sgready](https://github.com/velvet-jones/sgready/assets/2877548/6b257951-6b20-4478-a085-fba193280c0e)
+
 NOTE: You must rename 'credentials_template.h' to 'credentials.h'
       and put in your own network credentials!
 
