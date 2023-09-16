@@ -1,4 +1,8 @@
+ESP32 Failsafe switch for Home Assistant
+
 ![sgready](https://github.com/velvet-jones/sgready/assets/2877548/6b257951-6b20-4478-a085-fba193280c0e)
+
+Hardware: ESP32 with i2c OLED https://randomnerdtutorials.com/esp32-built-in-oled-ssd1306
 
 NOTE: You must rename 'credentials_template.h' to 'credentials.h'
       and put in your own network credentials!
