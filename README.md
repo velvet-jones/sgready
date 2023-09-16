@@ -14,10 +14,10 @@ binary digits.
 
 The SG Ready modes are:
 
-  00 - Normal
-  01 - Excess (Low price)
-  10 - Block (Pause functioning)
-  11 - Force (Force functioning)
+  * 00 - Normal
+  * 01 - Excess (Low price)
+  * 10 - Block (Pause functioning)
+  * 11 - Force (Force functioning)
 
 At present I am experimenting with only two of these modes, "Excess" and "Normal". In Excess
 mode the pump is encouraged to use electricity because it is free or inexpensive. In "Normal"
