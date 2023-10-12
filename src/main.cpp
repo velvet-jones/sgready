@@ -9,7 +9,7 @@
 
   The SG Ready standard requires that we not change the state of the switch more often than every
   10 minutes. In order to clearly show what is going on with the controller at any given moment,
-  we implement a device with three entities:
+  we implement a device with two entities:
 
     - A switch that controls the desired mode ("Excess": boolean, true when electricity is free/inexpensive, false otherwise)
     - A sensor that reflects the current mode ("Mode": integer, 0 = normal operation, 1 = excess mode)
@@ -20,7 +20,7 @@
     - Revert the heat pump to Normal mode, obeying the state transition time requirement
     - Ensure that the pump is in normal mode every so often as an added precaution
   
-   This device and two of its entities (Excess & Mode) are published to the Home Assistant MQTT discovery topic.
+   This device is published to the Home Assistant MQTT discovery topic.
 */
 
 #include <WiFi.h>
